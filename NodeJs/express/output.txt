@@ -1,0 +1,3 @@
+The name of the client is : masha 
+Age is : 0 
+Residing at : hi 

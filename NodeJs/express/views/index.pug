@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is title</title>
+    //- <!-- <title>#{title}</title> -->
+    style 
+        include ../static/style.css
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Contact</a></li>
+            <li><a href="/">More</a></li>
+        </ul>
+    </nav>
+    //- <!-- <h1> -->
+    //- <!-- | #{message} -->
+    //- <!-- </h1> -->
+
+    <div class="container">
+        <h2>Fill the form</h2>
+        <form action="/" method="post" id="contact">
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <input type="text" name="age" id="age" placeholder="Enter your age">
+            <textarea name="address" id="address" cols="30" rows="10"></textarea>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

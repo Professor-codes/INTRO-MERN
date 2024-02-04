@@ -1,0 +1,438 @@
+/* External css */
+    /* h3{
+    color: gray;
+}
+div{
+    background: black;
+    color: darkorange !important;
+}
+div{
+    color: greenyellow;
+} */
+
+    /* ------------------------------------------------------------------------------------------- */
+
+    /* element selector */
+    /* p {
+    color: chartreuse;
+} */
+
+    /* class selector */
+    /* .blue {
+    color: blue;
+    background: black;
+} */
+
+    /* id selector */
+    /* #red {
+    color: red;
+    background: black;
+} */
+
+    /* group selector */
+    /* details,
+span {
+    color: pink;
+    background: gray;
+} */                                                             
+
+    /* ------------------------------------------------------------------------------------------- */
+
+    /* Css font */
+    /* .fonttp1 {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.fonttp2 {
+    color: magenta;
+    font-family: cursive;
+}
+
+.fonttp3 {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 33px;
+    line-height: 11em;
+}
+
+span {
+    font-weight: 900;
+    font-style: italic;
+} */
+
+    /* ------------------------------------------------------------------------------------------- */
+
+    /* Box shadow and text shadow */
+    /* .container {
+    display: flex;
+}
+
+.card1,
+.card2,
+.card3 {
+    padding: 7px;
+    margin: 12px;
+    border: 2px solid black;
+    background: rgb(217, 217, 217);
+    border-radius: 4px;
+    box-shadow: -10px -10px 0px 0px black;
+}
+
+.card2 {
+    box-shadow: inset -10px 60px 0px 0px black;
+}
+
+.card3 {
+    box-shadow: -10px -10px 0px 0px black, 10px 10px rgb(6, 176, 176);
+}
+
+p {
+    color: black;
+} */
+
+    /* ------------------------------------------------------------------------------------------- */
+
+    /* Float and clear */
+    /* .container {
+    border: 2px solid rgb(255, 0, 0);
+    background: black;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.box {
+    border: 1px solid red;
+    padding: 10px;
+    margin: 10px;
+}
+
+.fruits {
+    float: right;
+    width: 50%;
+    color: red;
+}
+
+.computer {
+    float: left;
+    width: 50%;
+    clear: left;
+}
+
+.car {
+    float: right;
+    width: 100%;
+}
+
+.glasses {
+    float: right;
+    width: 100%;
+} */
+
+    /* ------------------------------------------------------------------------------------------- */
+
+    /* Pseudo selector and more designing */
+    /* .container {
+    border: 2px solid rgb(255, 0, 123);
+    background-color: rgb(194, 252, 222);
+    color: rgb(0, 0, 0);
+    padding: 34px;
+    margin: 60px auto;
+    width: 544px;
+}
+
+p {
+    color: rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover,
+a:hover {
+    background-color: #fff;
+    color: black;
+}
+
+a:active {
+    background-color: blue;
+}
+
+.btn {
+    background-color: #656262;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    color: white;
+} */
+
+    /* ------------------------------------------------------------------------------------------- */
+
+    /* Navigation menu */
+    /* .navbar{
+    background-color: rgb(192, 180, 180);
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style-type: none;
+padding: 16px;
+margin-left: 16px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    
+}
+.search{
+    float: right;
+    padding: 16px;
+    margin-right: 60px;
+    height: 23px;
+}
+input{
+    border: 1px solid rgb(242, 185, 242);
+    border-radius: 30px;
+    width: 156px;
+    height: 17px;
+} */
+
+    /* ------------------------------------------------------------------------------------------- */
+
+    /* Display property */
+    /* img {
+    height: 100px;
+    width: 100px;
+}
+h2{
+    text-align: center;
+}
+header {
+    margin: auto;
+    display: block;
+    width: 15%;
+} */
+
+    /* ------------------------------------------------------------------------------------------- */
+
+    /* Visibility and Z-index */
+    /* will work only for position: relative absolute fixed sticky */
+    /* z-index: ; */
+    /* will hide element and remove the space */
+    /* display: none; */
+
+    /* will hide element and reserve the space */
+    /* visibility: hidden; */
+
+    /* .box {
+    width: 160px;
+    height: 160px;
+    border: 1px solid black;
+}
+
+#box1 {
+    background-color: cadetblue;
+
+}
+
+#box2 {
+    background-color: crimson;
+
+}
+
+#box3 {
+    background-color: darkgrey;
+}
+
+#box4 {
+    background-color: darkblue;
+} */
+
+    /* ------------------------------------------------------------------------------------------- */
+
+    /* Flexbox */
+    /* .container{
+    width: 100%;
+    height: 510px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+}
+.item{
+    background-color: crimson;
+    border: 1px solid black;
+    margin: 11px;
+    padding: 26px;
+    width: 200px;
+    height: 200px;
+} */
+
+    /* ------------------------------------------------------------------------------------------- */
+
+    /* Media queries */
+    /* .box{
+    background-color: burlywood;
+    text-align: center;
+    display: none;
+}
+
+@media (max-width: 300px){
+    #box1{
+        display: block;
+        background-color: cornflowerblue;
+    }
+}
+@media (min-width: 300px) and (max-width:500px){
+    #box2{
+        display: block;
+        background-color: chocolate;
+    }
+}
+@media (min-width: 500px) and (max-width:800px){
+    #box3{
+        display: block;
+        background-color: cadetblue;
+    } 
+}
+@media (min-width:800px){
+    #box4{
+        display: block;
+        background-color: darkgrey;
+    }
+} */
+
+    /* ------------------------------------------------------------------------------------------- */
+
+    /* Attribute and nth child pseudo selectors */
+    /* .container{
+    display: block;
+    width: 150px;
+    margin: auto;
+}
+input{
+    display: block;
+    margin-bottom: 20px;
+}
+input[type='text']{
+    padding: 12px;
+    border: 2px solid rgb(0, 26, 255);
+}
+a[target]{
+    color: rgb(67, 199, 31);
+}
+li:nth-child(5){
+    color: chartreuse;
+    background-color: black;
+}
+li:nth-last-child(1){
+    color: rgb(255, 106, 0);
+    background-color: black;
+} */
+
+    /* ------------------------------------------------------------------------------------------- */
+
+    /* Before and after pseudo selector */
+    /* body {
+    background-color: black;
+    color: white;
+}
+
+header {
+    background: url('/Images/Image3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 22px;
+    margin-left: 42px;
+}
+
+section {
+    text-align: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 340px;
+}
+
+section h1 {
+    font-size: 53px;
+} */
+
+    /* ------------------------------------------------------------------------------------------- */
+
+    /* Variables */
+    /* root scope - all the blocks */
+    /* :root {
+    --prim-clr: cyan;
+    --sec-clr: orange;
+}
+
+.container {
+    display: flex;
+
+}
+
+.box {
+    --boxclr: rgb(26, 96, 105);
+    width: 200px;
+    height: 200px;
+    background-color: var(--boxclr);
+    border: 1px solid rgb(255, 255, 255);
+    margin: 0px 10px;
+    box-shadow: 40px 40px 30px var(--sec-clr);
+} */
+
+    /* ------------------------------------------------------------------------------------------- */
+
+    /* Keyframes and Animations */
+    /* .container {
+    display: flex;
+    background-color: black;
+}
+
+.box {
+    background-color: burlywood;
+    width: 230px;
+    height: 230px;
+    position: relative;
+
+    animation: box 5s  infinite;
+}
+
+@keyframes box {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 100%;
+    }
+} */
+
+    /* ------------------------------------------------------------------------------------------- */
